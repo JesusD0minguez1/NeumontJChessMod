@@ -76,7 +76,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.tmrWhite = new System.Windows.Forms.Timer(this.components);
             this.tmrBlack = new System.Windows.Forms.Timer(this.components);
+<<<<<<< Updated upstream
             this.chess960ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+=======
+>>>>>>> Stashed changes
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitView)).BeginInit();
@@ -130,9 +133,20 @@
             this.newGameToolStripMenuItem.Size = new System.Drawing.Size(541, 54);
             this.newGameToolStripMenuItem.Text = "New AI vs Player Game";
             this.newGameToolStripMenuItem.Click += new System.EventHandler(this.NewGame);
+
             // 
-            // new2PlayerGameToolStripMenuItem
+
+
+            // new chess 960
             // 
+            this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(541, 54);
+            this.newGameToolStripMenuItem.Text = "New Chess 960";
+            this.newGameToolStripMenuItem.Click += new System.EventHandler(this.NewGame);
+
+            // 
+            //
+
             this.new2PlayerGameToolStripMenuItem.Name = "new2PlayerGameToolStripMenuItem";
             this.new2PlayerGameToolStripMenuItem.Size = new System.Drawing.Size(541, 54);
             this.new2PlayerGameToolStripMenuItem.Text = "New Player vs Player Game";
@@ -307,7 +321,7 @@
             this.mnuDif4,
             this.mnuDif5});
             this.difficultyDepthToolStripMenuItem.Name = "difficultyDepthToolStripMenuItem";
-            this.difficultyDepthToolStripMenuItem.Size = new System.Drawing.Size(266, 45);
+            this.difficultyDepthToolStripMenuItem.Size = new System.Drawing.Size(266, 48);
             this.difficultyDepthToolStripMenuItem.Text = "Difficulty (Depth)";
             // 
             // mnuDif1
@@ -406,6 +420,11 @@
             this.splitView.Panel2MinSize = 200;
             this.splitView.Size = new System.Drawing.Size(1691, 990);
             this.splitView.SplitterDistance = 1464;
+<<<<<<< Updated upstream
+=======
+            this.splitView.Size = new System.Drawing.Size(1691, 990);
+            this.splitView.SplitterDistance = 1450;
+>>>>>>> Stashed changes
             this.splitView.SplitterWidth = 11;
             this.splitView.TabIndex = 2;
             // 
@@ -415,7 +434,7 @@
             this.lblBlackCheck.Location = new System.Drawing.Point(408, 117);
             this.lblBlackCheck.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblBlackCheck.Name = "lblBlackCheck";
-            this.lblBlackCheck.Size = new System.Drawing.Size(125, 32);
+            this.lblBlackCheck.Size = new System.Drawing.Size(124, 32);
             this.lblBlackCheck.TabIndex = 6;
             this.lblBlackCheck.Text = "In Check";
             this.lblBlackCheck.Visible = false;
@@ -426,7 +445,7 @@
             this.lblWhiteCheck.Location = new System.Drawing.Point(35, 117);
             this.lblWhiteCheck.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblWhiteCheck.Name = "lblWhiteCheck";
-            this.lblWhiteCheck.Size = new System.Drawing.Size(125, 32);
+            this.lblWhiteCheck.Size = new System.Drawing.Size(124, 32);
             this.lblWhiteCheck.TabIndex = 6;
             this.lblWhiteCheck.Text = "In Check";
             this.lblWhiteCheck.Visible = false;
@@ -446,7 +465,7 @@
             this.label3.Location = new System.Drawing.Point(35, 176);
             this.label3.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 32);
+            this.label3.Size = new System.Drawing.Size(105, 32);
             this.label3.TabIndex = 4;
             this.label3.Text = "Moves:";
             // 
@@ -466,7 +485,7 @@
             this.lblWhiteTime.Location = new System.Drawing.Point(35, 76);
             this.lblWhiteTime.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblWhiteTime.Name = "lblWhiteTime";
-            this.lblWhiteTime.Size = new System.Drawing.Size(151, 32);
+            this.lblWhiteTime.Size = new System.Drawing.Size(150, 32);
             this.lblWhiteTime.TabIndex = 2;
             this.lblWhiteTime.Text = "00:00:00.0";
             // 
@@ -477,7 +496,7 @@
             this.lblBlackTime.Location = new System.Drawing.Point(27, 76);
             this.lblBlackTime.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblBlackTime.Name = "lblBlackTime";
-            this.lblBlackTime.Size = new System.Drawing.Size(151, 32);
+            this.lblBlackTime.Size = new System.Drawing.Size(150, 32);
             this.lblBlackTime.TabIndex = 2;
             this.lblBlackTime.Text = "00:00:00.0";
             // 
@@ -509,6 +528,7 @@
             // 
             this.tmrWhite.Tick += new System.EventHandler(this.tmrWhite_Tick);
             // 
+<<<<<<< Updated upstream
             // tmrBlack
             // 
             // 
@@ -519,6 +539,8 @@
             this.chess960ToolStripMenuItem.Text = "Chess 960";
             this.chess960ToolStripMenuItem.Click += new System.EventHandler(this.chess960ToolStripMenuItem_Click);
             // 
+=======
+>>>>>>> Stashed changes
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
