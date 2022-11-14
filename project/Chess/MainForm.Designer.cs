@@ -87,6 +87,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(40, 40);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
@@ -94,7 +95,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(16, 5, 0, 5);
-            this.menuStrip1.Size = new System.Drawing.Size(1691, 55);
+            this.menuStrip1.Size = new System.Drawing.Size(1691, 60);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -380,7 +381,7 @@
             this.splitView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitView.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
             this.splitView.IsSplitterFixed = true;
-            this.splitView.Location = new System.Drawing.Point(0, 55);
+            this.splitView.Location = new System.Drawing.Point(0, 60);
             this.splitView.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.splitView.Name = "splitView";
             // 
@@ -403,7 +404,7 @@
             this.splitView.Panel2.Controls.Add(this.label1);
             this.splitView.Panel2.Controls.Add(this.label2);
             this.splitView.Panel2MinSize = 200;
-            this.splitView.Size = new System.Drawing.Size(1691, 993);
+            this.splitView.Size = new System.Drawing.Size(1691, 988);
             this.splitView.SplitterDistance = 1457;
             this.splitView.SplitterWidth = 11;
             this.splitView.TabIndex = 2;

@@ -72,6 +72,10 @@ namespace Chess
             {
                 NewGame(2);
             }
+            else if(button.Text.StartsWith("New Chess 960"))
+            {
+                NewGame(1);
+            }
 
         }
 
