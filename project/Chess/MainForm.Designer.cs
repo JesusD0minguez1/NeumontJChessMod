@@ -76,7 +76,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.tmrWhite = new System.Windows.Forms.Timer(this.components);
             this.tmrBlack = new System.Windows.Forms.Timer(this.components);
-            this.chess960ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.newChess960ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitView)).BeginInit();
@@ -87,7 +87,6 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(40, 40);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
@@ -95,7 +94,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(16, 5, 0, 5);
-            this.menuStrip1.Size = new System.Drawing.Size(1691, 58);
+            this.menuStrip1.Size = new System.Drawing.Size(1691, 55);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -104,7 +103,7 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newAIGame,
             this.newGameToolStripMenuItem,
-            this.chess960ToolStripMenuItem,
+            this.newChess960ToolStripMenuItem,
             this.new2PlayerGameToolStripMenuItem,
             this.endCurrentGameToolStripMenuItem,
             this.toolStripSeparator2,
@@ -114,7 +113,7 @@
             this.toolStripSeparator1,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(120, 48);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(120, 45);
             this.fileToolStripMenuItem.Text = "Game";
             // 
             // newAIGame
@@ -381,7 +380,7 @@
             this.splitView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitView.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
             this.splitView.IsSplitterFixed = true;
-            this.splitView.Location = new System.Drawing.Point(0, 58);
+            this.splitView.Location = new System.Drawing.Point(0, 55);
             this.splitView.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.splitView.Name = "splitView";
             // 
@@ -404,8 +403,8 @@
             this.splitView.Panel2.Controls.Add(this.label1);
             this.splitView.Panel2.Controls.Add(this.label2);
             this.splitView.Panel2MinSize = 200;
-            this.splitView.Size = new System.Drawing.Size(1691, 990);
-            this.splitView.SplitterDistance = 1464;
+            this.splitView.Size = new System.Drawing.Size(1691, 993);
+            this.splitView.SplitterDistance = 1457;
             this.splitView.SplitterWidth = 11;
             this.splitView.TabIndex = 2;
             // 
@@ -509,15 +508,11 @@
             // 
             this.tmrWhite.Tick += new System.EventHandler(this.tmrWhite_Tick);
             // 
-            // tmrBlack
+            // newChess960ToolStripMenuItem
             // 
-            // 
-            // chess960ToolStripMenuItem
-            // 
-            this.chess960ToolStripMenuItem.Name = "chess960ToolStripMenuItem";
-            this.chess960ToolStripMenuItem.Size = new System.Drawing.Size(541, 54);
-            this.chess960ToolStripMenuItem.Text = "Chess 960";
-            this.chess960ToolStripMenuItem.Click += new System.EventHandler(this.chess960ToolStripMenuItem_Click);
+            this.newChess960ToolStripMenuItem.Name = "newChess960ToolStripMenuItem";
+            this.newChess960ToolStripMenuItem.Size = new System.Drawing.Size(541, 54);
+            this.newChess960ToolStripMenuItem.Text = "New Chess 960";
             // 
             // MainForm
             // 
@@ -597,7 +592,7 @@
         private System.Windows.Forms.Timer tmrWhite;
         private System.Windows.Forms.Timer tmrBlack;
         private System.Windows.Forms.ToolStripMenuItem newAIGame;
-        private System.Windows.Forms.ToolStripMenuItem chess960ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem newChess960ToolStripMenuItem;
     }
 }
 
